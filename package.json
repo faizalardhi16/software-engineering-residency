@@ -1,0 +1,22 @@
+{
+  "name": "software-engineering-residency",
+  "version": "1.0.0",
+  "description": "A structured self-paced journey to master software engineering fundamentals.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": ["residency", "typescript", "learning"],
+  "author": "Faizal Ardhi Cahyanto",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}
