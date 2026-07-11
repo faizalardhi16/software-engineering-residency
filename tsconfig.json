@@ -17,6 +17,6 @@
     "sourceMap": true,
     "resolveJsonModule": true
   },
-  "include": ["week-01-my-utils/**/*.ts"],
+  "include": ["sprint-*/**/*.ts"],
   "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }

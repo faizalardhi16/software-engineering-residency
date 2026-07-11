@@ -1,10 +1,10 @@
-# 📋 Review Rule
+# 📋 REVIEW RULE
 
 ## Code Review Checklist
 
 ### Functionality
 - [ ] Apakah function mengerjakan satu hal dengan benar?
-- [ ] Edge cases sudah di-handle? (empty array, null, undefined, NaN)
+- [ ] Edge cases sudah di-handle? (empty, null, undefined, boundary)
 - [ ] Tipe data return sesuai ekspektasi?
 - [ ] Immutable? (tidak memutasi input)
 
@@ -13,25 +13,34 @@
   - Happy path (normal case)
   - Edge case (empty, extreme values)
   - Error case (invalid input)
-- [ ] Nama test deskriptif (should ... when ...)
-- [ ] Coverage minimal 90%
+- [ ] Nama test deskriptif (`should ... when ...`)
+- [ ] Coverage minimal 80%
 
 ### Code Quality
-- [ ] TypeScript strict — no `any` (kecuali terpaksa)
+- [ ] TypeScript strict — no `any`
 - [ ] Naming jelas, tanpa singkatan cryptic
-- [ ] No console.log di production code
+- [ ] No `console.log` di production code
 - [ ] JSDoc untuk public API
+- [ ] SRP/DRY/KISS/YAGNI dipertimbangkan
 
 ### Dokumentasi
 - [ ] Function didokumentasikan di README
 - [ ] Contoh usage disertakan
 - [ ] Complex logic ada comment inline
+- [ ] Reflection.md diisi
 
-## Scoring System
-Setiap PR akan dinilai:
-- **Correctness** (40%) — semua test passing
-- **Code Quality** (25%) — clean, typed, well-structured
-- **Test Coverage** (20%) — minimal 90%
-- **Documentation** (15%) — README, JSDoc, examples
+## Review Rubric
 
-Nilai akhir: **A** (≥90) | **B** (75-89) | **C** (60-74) | **D** (<60)
+| Category | Weight |
+|-----------|-------:|
+| Logic | 30% |
+| Clean Code | 20% |
+| SOLID | 20% |
+| Maintainability | 15% |
+| Performance | 10% |
+| Testing | 5% |
+| **Total** | **100%** |
+
+**Passing Score:** 80/100
+
+**Grade:** A (≥90) | B (80-89) | C (70-79) | D (<70)

@@ -1,49 +1,26 @@
-# 🗺️ ROADMAP
+# 🗺️ ROADMAP — 12-Week Software Engineering Residency
 
-## Sprint 0 — Setup
-- [x] Buat repository + struktur folder
-- [ ] Setup TypeScript + tooling
-- [x] Root README.md, ROADMAP.md, REVIEW_RULE.md, SCOREBOARD.md
+> *Membangun kembali engineering sense melalui latihan bertahap.*
 
-## Sprint 1 — Week 01: my-utils (TypeScript)
-- [ ] README week-01 + daftar function
-- [ ] groupBy() — implementasi + test
-- [ ] sumBy() — implementasi + test
-- [ ] sortBy() — implementasi + test
-- [ ] uniqBy() — implementasi + test
-- [ ] chunk() — implementasi + test
-- [ ] deepClone() — implementasi + test
-- [ ] pick() / omit() — implementasi + test
-- [ ] isEqual() — implementasi + test
-- [ ] debounce() / throttle() — implementasi + test
-- [ ] sleep() — implementasi + test
+---
 
-## Sprint 2 — Design Patterns: Creational
-- [ ] Singleton
-- [ ] Factory
-- [ ] Builder
-- [ ] Prototype
+| Sprint | Topic | Fokus | Status |
+|--------|-------|-------|--------|
+| **00** | Repository & Environment Setup | Git, TypeScript, Vitest, Docs | ✅ |
+| **01** | Utility Library | groupBy, unique, chunk, flatten, capitalize, camelCase, snakeCase, clamp, random | 🔴 |
+| **02** | Async Toolkit | debounce, throttle, retry, memoize, promisePool, timeout | ⬜ |
+| **03** | Clean Code | SRP, DRY, KISS, YAGNI — refactor bad code | ⬜ |
+| **04** | SOLID Principles | Mini Order System — SRP, OCP, DIP | ⬜ |
+| **05** | Design Patterns | Payment Gateway — Strategy, Factory, Repository | ⬜ |
+| **06** | Backend Architecture | Controller → UseCase → Service → Repository (no framework) | ⬜ |
+| **07** | Frontend Architecture | React — Component Design, Composition, Custom Hooks | ⬜ |
+| **08** | Mini ERP | Create → Approve → Reject → History workflow | ⬜ |
+| **09** | Performance | Big O, Memory, Benchmark — optimize large datasets | ⬜ |
+| **10** | Legacy Refactoring | Refactor existing legacy module | ⬜ |
+| **11** | AI-Assisted Engineering | AI only as reviewer | ⬜ |
+| **12** | 🏁 Enterprise Final Project | Design everything independently | ⬜ |
 
-## Sprint 3 — Design Patterns: Structural
-- [ ] Adapter
-- [ ] Decorator
-- [ ] Proxy
-- [ ] Facade
+---
 
-## Sprint 4 — Design Patterns: Behavioral
-- [ ] Observer
-- [ ] Strategy
-- [ ] Command
-- [ ] State
-
-## Sprint 5 — SOLID Principles
-- [ ] Single Responsibility
-- [ ] Open/Closed
-- [ ] Liskov Substitution
-- [ ] Interface Segregation
-- [ ] Dependency Inversion
-
-## Sprint 6+ — TBD
-- Clean Architecture
-- Refactoring workshop
-- Real-world mini project
+**Legend:** ✅ Done • 🔴 In Progress • ⬜ Not Started
+**Target Graduation:** ≥ 80/100 final score

@@ -4,6 +4,6 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'node',
-    include: ['week-01-my-utils/test/**/*.test.ts'],
+    include: ['sprint-*/test/**/*.test.ts'],
   },
 })

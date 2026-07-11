@@ -1,88 +1,93 @@
-# 🏗️ Software Engineering Residency
+# 🏗️ Software Engineering Residency Bootcamp
 
-> A structured self-paced journey to master software engineering fundamentals — from utility functions to design patterns, SOLID principles, and beyond.
+> **Version:** 1.0 | **Mentor:** Hermes Agent (Tech Lead) | **Duration:** 12 Weeks
 
-## 🎯 Tujuan
+---
 
-Proyek ini adalah **residency program pribadi** untuk membangun fondasi software engineering yang kokoh melalui praktik langsung, meliputi:
+## 🌟 Vision
 
-- Penguasaan **JavaScript/TypeScript** fundamental
-- **Test-Driven Development (TDD)** sebagai habit
-- **SOLID Principles** dan **Design Patterns**
-- **Clean Architecture** & **Code Organization**
-- **Code Review** & **Refactoring** skills
-- Dokumentasi sebagai first-class citizen
+Membangun kembali *engineering sense* melalui latihan bertahap sehingga mampu:
 
-## 📁 Struktur Folder
+- Mendesain solusi sebelum menulis kode
+- Menulis kode yang bersih dan mudah dirawat
+- Menerapkan SOLID
+- Melakukan code review
+- Menggunakan AI sebagai reviewer, bukan autopilot
+
+---
+
+## 📋 Rules
+
+1. Tulis solusi sendiri terlebih dahulu.
+2. AI boleh digunakan setelah draft pertama selesai.
+3. Internet boleh digunakan sebagai referensi, tetapi implementasi harus ditulis ulang dengan pemahaman sendiri.
+4. Setiap sprint wajib memiliki README dan Reflection.
+5. Semua perubahan menggunakan Git.
+6. Setelah selesai, submit repository untuk direview.
+
+---
+
+## 🔄 Workflow
+
+```
+Sprint Ticket
+  → Design
+  → Implement
+  → Self Review
+  → AI Review
+  → Refactor
+  → Commit
+  → Submit
+  → Tech Lead Review
+  → Revision (jika diperlukan)
+  → Approved
+```
+
+---
+
+## 📁 Repository Structure
 
 ```
 software-engineering-residency/
 ├── README.md
-├── ROADMAP.md            # Rencana perjalanan belajar
-├── REVIEW_RULE.md        # Aturan code review
-├── SCOREBOARD.md         # Progress tracker
-│
-├── week-01-my-utils/     # Utility functions library
-│   ├── README.md
-│   ├── Reflection.md
-│   ├── src/
-│   ├── test/
-│   └── docs/
-│
-├── assets/               # Diagram, screenshots, etc.
-└── ...
+├── ROADMAP.md
+├── REVIEW_RULE.md
+├── SCOREBOARD.md
+├── sprint-00/        # Repository & Environment Setup
+├── sprint-01/        # Utility Library
+├── sprint-02/        # Async Toolkit
+├── ...
+├── sprint-12/        # 🏁 Enterprise Final Project
+└── assets/
 ```
 
 ## 🚀 Cara Menjalankan
 
 ```bash
-# Install dependencies
-npm install
-
-# Build (TypeScript → JavaScript)
-npm run build
-
-# Run tests
-npm test
-
-# Run in development mode
-npm run dev
+npm install        # Install dependencies
+npm run build      # Build TypeScript
+npm test           # Run tests
+npm run test:watch # Watch mode
 ```
 
-## 🧪 Cara Testing
+## 👨‍🏫 Mentor Commitment
 
-Proyek ini menggunakan **Vitest** sebagai test runner.
+Saya akan bertindak sebagai:
 
-```bash
-# Run all tests
-npm test
+- **Product Owner** — menentukan arah dan prioritas
+- **Tech Lead** — membimbing keputusan arsitektur
+- **Senior Engineer** — code review & best practices
+- **Code Reviewer** — reviewing setiap PR
+- **Mentor** — guiding through questions & discussion
 
-# Run tests with coverage
-npm run test:coverage
-
-# Run tests in watch mode
-npm run test:watch
-```
-
-## 📦 Daftar Function (Week 01: my-utils)
-
-| Function | Description |
-|----------|-------------|
-| `groupBy` | Group array items by a key/callback |
-| `sumBy` | Sum array items by a numeric key |
-| `sortBy` | Sort array items by a key |
-| `uniqBy` | Remove duplicates by a key |
-| `chunk` | Split array into chunks |
-| `deepClone` | Deep clone an object/array |
-| `pick` | Pick specific keys from an object |
-| `omit` | Omit specific keys from an object |
-| `isEqual` | Deep equality check |
-| `debounce` | Debounce a function |
-| `throttle` | Throttle a function |
-| `sleep` | Promise-based delay |
-
-> 📝 Daftar akan bertambah seiring progres residensi.
+> *"Saya tidak akan langsung memberikan solusi. Saya akan membimbing melalui pertanyaan, hint, review, dan diskusi engineering."*
 
 ---
 
-> *"Documentation is a love letter to your future self."*
+## 🎓 Graduation Criteria
+
+- [ ] Semua sprint selesai (12/12)
+- [ ] Nilai minimal 80/100
+- [ ] Final project approved
+- [ ] Mampu menjelaskan SOLID & keputusan desain
+- [ ] Mampu melakukan self review
